@@ -39,17 +39,6 @@ body::-webkit-scrollbar-thumb {
     z-index: 1;
   }
 
-  .hamburger {
-    margin-right: 5rem;
-    transition: all .8s ease;
-    font-size: 50px;
-  }
-
-  .hamburger:hover {
-    transition: all .5s ease;
-    color: #0FFF50;
-    cursor: pointer;
-  }
 
     h2 {
         font-family: Arial, Helvetica, sans-serif;
@@ -281,154 +270,23 @@ Chartreuse	#DFFF00	rgb(223, 255, 0)
   Spring Green	#00FF7F	rgb(0, 255, 127)
   	Viridian	#40826D	rgb(64, 130, 109) */
 
-    audio {
-        display: flex;
-        align-content: center;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-left: auto;
-        margin-right: auto;
-        margin-right: 0 auto;
-        margin-left: 0 auto;
-        margin-top: 15vh;
-        width: 25rem;
-        border-radius: 25px;
-        box-shadow: 0px 0px 26px 14px #121c26;
-        transition: all .5s ease;
-        animation: change-border 90s ease infinite;
-    }
-
-    @keyframes change-border {
-        0% {
-            box-shadow: 0px 0px 5px 1px  #121c26;
-        }
-        25% {
-            box-shadow: 0px 0px 5px 1px  #0FFF50;
-        }
-        50% {
-            box-shadow: 0px 0px 5px 1px #008000;
-        }
-        75% {
-            box-shadow: 0px 0px 5px 1px  #0FFF50;
-        }
-        100% {
-            box-shadow: 0px 0px 5px 1px  #121c26;
-        }
-        }
 
         .extraSpace {
           width: 100%;
           height: 16rem;
         }
 
-        .bottomText {
-          justify-content: center;
-          align-items: center;
-          color: #121c26;
-          font-family: Arial, Helvetica, sans-serif;
-          font-weight: bolder;
-          margin: 10px;
-          white-space: nowrap;
-          overflow: hidden;
-          font-size: 30px;
-          transition: all .6s ease;
-        }
         
-        .bottomText:hover {
-          background-color: #121c26;
-          color: #F8F9F9;
-          border-radius: 4px;
-          transition: all .5s ease;
-          cursor: default;
-        }
 
-        .bottomText span {
-            display: inline-block;
-            padding-left: 100%;
-            animation: bottomText 60s linear infinite;
-          }
+        
 
-          @keyframes bottomText {
-            0% {
-              transform: translate(0, 100);
-            }
-            100% {
-              transform: translate(-100%, 0);
-            }
-          }
-
-          .middleText {
-            justify-content: center;
-            align-items: center;
-            color: #121c26;
-            font-family: Arial, Helvetica, sans-serif;
-            font-weight: bolder;
-            margin: 10px;
-            white-space: nowrap;
-            overflow: hidden;
-            font-size: 30px;
-            transition: all .6s ease;
-          }
-
-          .middleText:hover {
-            background-color: #121c26;
-            color: #F8F9F9;
-            border-radius: 4px;
-            transition: all .5s ease;
-            cursor: default;
-          }
+          
   
-          .middleText span {
-              display: inline-block;
-              padding-left: 100%;
-              animation: middleText 30s linear infinite;
-            }
-  
-            @keyframes middleText {
-              0% {
-                transform: translate(0, 100);
-              }
-              100% {
-                transform: translate(-100%, 0);
-              }
-            }
+          
             
-            .bottomBottomText {
-              justify-content: center;
-              align-items: center;
-              color: #121c26;
-              font-family: Arial, Helvetica, sans-serif;
-              font-weight: bolder;
-              margin: 10px;
-              white-space: nowrap;
-              overflow: hidden;
-              font-size: 30px;
-              transition: all .6s ease;
-            }
-
-            .bottomBottomText:hover {
-              background-color: #121c26;
-              color: #F8F9F9;
-              border-radius: 4px;
-              transition: all .5s ease;
-              cursor: default;
-            }
+            
     
-            .bottomBottomText span {
-                display: inline-block;
-                padding-left: 100%;
-                animation: bottomBottomText 45s linear infinite;
-              }
-    
-              @keyframes bottomBottomText {
-                0% {
-                  transform: translate(0, 100);
-                }
-                100% {
-                  transform: translate(-100%, 0);
-                }
-              }
+        
 
         .container {
           width: 100%;
@@ -447,187 +305,7 @@ Chartreuse	#DFFF00	rgb(223, 255, 0)
         .container:hover {
           background-color: #F8F9F9;
         }
-
-        .child {
-          /* height: 100rem;
-          width: 100rem; */
-          display: flex;
-          align-content: space-between;
-          justify-content: center;
-          align-items: center;
-          align-content: center;
-          transition: all .3s ease;
-          /* flex-grow: 1; */
-        
-        }
-
-        #one {
-          background-color: #F8F9F9;
-          height: 125px;
-          width: 125px;
-          border-radius: 5px;
-          transition: all 3s ease;
-          margin: 5px;
-          /* flex-grow: 1; */
-        } 
-
-        #one:hover {
-          cursor: crosshair;
-          border-radius: 2px;
-          box-shadow: 0px 0px 6px 2px #121c26;
-          background-color: #008000;
-          transition: all .8s ease;
-        }
-
-        /* #two {
-          background-color: #F8F9F9;
-          height: 100px;
-          width: 100px;
-          border-radius: 5px;
-          transition: all 3s ease;
-          margin: 5px;
-        }
-
-        #two:hover {
-          cursor: crosshair;
-          border-radius: 2px;
-          box-shadow: 0px 0px 6px 2px #121c26;
-          animation: change-child 4s ease infinite;
-          transition: all .8s ease;
-        }
-
-        @keyframes change-child {
-          0% {
-            background: #008000;
-          }
-          25% {
-              background: #50C878;
-          }
-          50% {
-              background: #32CD32;
-          }
-          75% {
-              background: #50C878;
-          }
-          100% {
-              background: #008000;
-          }
-        } */
-        
       
-        .videoDiv {
-          width: 100rem;
-          height: 60rem;
-          position: relative;
-          display: flex;
-          background-color: #121c26;
-          border-radius: 8px;
-          margin: auto;
-          align-items: center;
-          margin-bottom: 8rem;
-        }
-
-        .theFilm {
-          font-family: Arial, Helvetica, sans-serif;
-              width: 40rem;
-              height: 50%;
-              justify-content: center;
-              align-items: center;
-              align-content: center;
-              margin-left: auto;
-              margin-right: auto;
-              margin-right: 0 auto;
-              margin-left: 0 auto;
-              border-radius: 5px;
-              box-shadow: 0px 0px 4px 2px #F8F9F9; 
-        }
-
-        /* .videoContainer {
-          font-family: Arial, Helvetica, sans-serif;
-          width: 40rem;
-          height: 50%;
-          color: #121c26;
-          font-size: 80px;
-          border: 1px solid #F8F9F9; 
-          box-shadow: 0px 0px 4px 2px #F8F9F9;
-          border-radius: 6px;
-          background-color: #F8F9F9;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          align-content: center;
-          margin: auto;
-          margin-top: 15vh;
-          vertical-align: middle;
-          position: absolute;
-          cursor: crosshair;
-
-          margin: auto;
-          vertical-align: middle;
-          position: absolute;
-          top: 20%;
-          left: 0;
-          margin: 0% 0% 0% 0%;
-
-          font-family: Arial, Helvetica, sans-serif;
-          width: 40rem;
-          height: 50%;
-          background-color: #F8F9F9;
-          color: #121c26;
-          font-size: 80px;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          align-content: center;
-          margin-left: auto;
-          margin-right: auto;
-          margin-right: 0 auto;
-          margin-left: 0 auto;
-          border-radius: 5px;
-          box-shadow: 0px 0px 4px 2px #F8F9F9;
-          
-        } */
-
-        .videoText {
-          font-family: Arial, Helvetica, sans-serif;
-          display: flex;
-          flex-direction: column;
-          align-items: flex-start;
-          position: absolute;
-          bottom: 0;
-          color: #F8F9F9;
-          margin-left: 3rem;
-        }
-
-        .poemDiv {
-          width: 100%;
-          height: 60rem;
-          display: flex;
-          flex-direction: column;
-          /* border: 1px solid #121c26;
-          border-radius: 8px; */
-        }
-        
-        .titleDiv {
-          /* font-family: Arial, Helvetica, sans-serif; */
-          display: flex;
-          flex-direction: row-reverse;
-          margin-top: 12%;
-          margin-right: 3%;
-        }
-
-        h1 {
-          transition: all 1s ease;
-        }
-
-        /* h1:hover {
-        letter-spacing: 10px; 
-        cursor: default;
-        transform: scaleX(1);
-        vertical-align: top;
-        color: #0FFF50; 
-        transition: all 1.5s ease;
-        } */
 
         .about-green-sqr-text {
           text-decoration: underline;
@@ -666,27 +344,7 @@ Chartreuse	#DFFF00	rgb(223, 255, 0)
           }
         }
 
-        .imgDiv {
-          border-radius: 10px;
-          overflow: hidden;
-          margin-bottom: 8%;
-          width: 400px;
-          height: 600px;
-          display: flex;
-          flex-direction: column-reverse;
-          z-index: -1;
-          margin-left: 22px;
-        }
-
-        img {
-          width: auto;
-          display: block;
-          position: absolute;
-          border-radius: 6px;
-          width: 400px;
-          height: 600px;
-          box-shadow: 0px 0px 8px 5px #121c26;
-        }
+        
 
           .lastPart {
             width:86rem;
