@@ -57,9 +57,7 @@ html {
         }
       }
       
-
   .square {
-      display: flex;
       height: 600px;
       width: 600px;
       margin: 4rem auto;
@@ -263,6 +261,18 @@ Chartreuse	#DFFF00	rgb(223, 255, 0)
         .about-green-sqr-text {
           text-decoration: underline;
           letter-spacing: -2px; 
+          cursor: default;
+        }
+
+        .about-text {
+          color: #F8F9F9;
+          cursor: default;
+          transition: all 4s ease-in-out;
+          padding: 4px;
+        }
+        .about-text:hover {
+          color: #121c26;
+          transition: all 1s ease-in-out;
         }
 
           
